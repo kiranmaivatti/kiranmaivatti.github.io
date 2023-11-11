@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif !important;
+    background-image: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
 }
 
 section {
@@ -36,19 +37,19 @@ section {
 
 .col-sm-4:nth-child(1) .card,
 .col-sm-4:nth-child(1) .card .title .fa {
-    background: linear-gradient(-45deg, #EBDCAD, #64b5f6);
+    background: linear-gradient(-45deg, #73797c, #6587a3);
 
 }
 
 .col-sm-4:nth-child(2) .card,
 .col-sm-4:nth-child(2) .card .title .fa {
-    background: linear-gradient(-45deg, #ffec61, #855f80);
+    background: linear-gradient(-45deg, #808592, #3b6b67);
 
 }
 
 .col-sm-4:nth-child(3) .card,
 .col-sm-4:nth-child(3) .card .title .fa {
-    background: linear-gradient(-45deg, #24ff72, #C89670);
+    background: linear-gradient(-45deg, #CBB7AE, #71380d);
 
 }
 
@@ -78,7 +79,7 @@ section {
 
 }
 
-.title h2 {
+.title h1 {
     position: relative;
     margin: 20px 0 0;
     padding: 0;
@@ -96,7 +97,7 @@ section {
 .price h4 {
     margin: 0;
     padding: 20px 0;
-    color: #fff;
+    color: #3b1717;
     font-size: 60px;
 }
 
@@ -111,7 +112,7 @@ section {
     padding: 0;
     list-style: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .card a {
