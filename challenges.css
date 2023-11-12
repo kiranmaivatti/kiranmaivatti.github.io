@@ -80,6 +80,7 @@ section {
 }
 
 .title h1 {
+    font-weight: bold;
     position: relative;
     margin: 20px 0 0;
     padding: 0;
@@ -136,4 +137,15 @@ section {
 
 .card a:hover {
     text-decoration: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 300%;
+    color: #3b1717;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sacramento', cursive;
 }
