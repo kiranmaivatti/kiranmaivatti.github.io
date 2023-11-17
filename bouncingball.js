@@ -53,7 +53,7 @@ function Ball() {
 }
 
 var bal = [];
-for (var i = 0; i < 15; i++) {
+for (var i = 0; i < 25; i++) {
     bal.push(new Ball());
 }
 

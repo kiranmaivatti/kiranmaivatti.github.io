@@ -3,39 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Kiranmai Vatti</title>
-    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./home.css">
+    <title>Kiranmai Webpage Login</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <canvas id="canvas"></canvas>
-    <script src="bouncingball.js"></script>
-    <header>
-        <div>
-            <h1>MY PORTFOLIO PAGE</h1>
-        </div>
-        <nav role="navigation">
-            <div id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                    <a href="home.html">
-                        <li>My Blog</li>
-                    </a>
-                    <a href="challenges.html">
-                        <li>Challenges</li>
-                    </a>
-                    <a href="objectives.html">
-                        <li>Objectives</li>
-                    </a>
+    <div id="bg"></div>
 
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <form id="myForm" name="myForm" action="portfolio.html">
+        <h1>My Webpage login</h1>
+        <br><br>
+        <div class="form-field">
+            <input type="text" placeholder="Enter Username" required />
+        </div>
+
+        <div class="form-field">
+            <input type="password" placeholder="Password" required />
+        </div>
+        <br>
+        <div class="form-field">
+            <button class="btn" type="submit" form="myForm" value="Submit">Login</button>
+
+
+            <button class="btn" type="cancel" value="Cancel" onclick="showMessage()">Cancel</button>
+
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        function showMessage() {
+
+            alert("Happy to see you kiran!");
+
+        }
+    </script>
+
 </body>
 
 </html>
