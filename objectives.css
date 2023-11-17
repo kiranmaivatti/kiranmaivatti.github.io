@@ -10,23 +10,17 @@ body {
     background: #e4ebf4;
     padding: 2rem;
 }
-
-
-
 .techmom-image {
     width: 700px;
     height: 300px;
 }
-
 .techmom-info-container {
     background-color: #ebf4f5;
     color: black;
     padding-left: 15px;
     padding-right: 15px;
 }
-
 .techmom-section-container {
-
     width: 500px;
 }
 
